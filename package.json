@@ -1,0 +1,21 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "node express js",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "serve": "nodemon server.js"
+  },
+  "author": "johan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5",
+    "validate-phone-number-node-js": "0.0.1"
+  },
+  "devDependencies": {}
+}
